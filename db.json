@@ -1,5 +1,5 @@
 {
     "users": [
-      { "id": 1, "name": "Marcelo", "email": "marcelo@email.com", "senha":"123456" }
+      { "id": 1, "nome": "Marcelo", "email": "marcelo@email.com", "senha":"123456" }
     ]
 }

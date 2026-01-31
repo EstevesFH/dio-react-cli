@@ -34,6 +34,10 @@ const Login = () => {
         }
     };
 
+    const handleClickCadastro = () => {
+        navigate('/cadastro')
+    }
+
     console.log('errors', errors);
 
     return (<>
@@ -45,18 +49,31 @@ const Login = () => {
             </Column>
             <Column>
                 <Wrapper>
-                <TitleLogin>Faça seu cadastro</TitleLogin>
+                <TitleLogin>Faça seu login</TitleLogin>
                 <SubtitleLogin>Faça seu login e make the change._</SubtitleLogin>
                 <form onSubmit={handleSubmit(onSubmit)}>
-                    <Input placeholder="E-mail" leftIcon={<MdEmail />} name="email"  control={control} />
-                    {errors.email && <span>E-mail é obrigatório</span>}
-                    <Input type="password" placeholder="Senha" leftIcon={<MdLock />}  name="senha" control={control} />
-                    {errors.senha && <span>Senha é obrigatório</span>}
+                    <Input 
+                        placeholder="E-mail" 
+                        leftIcon={<MdEmail />} 
+                        name="email" 
+                        control={control}
+                        rules={{ required: true }}
+                    />
+                    {errors.email && <span style={{ color: '#E4105D', fontSize: '12px' }}>E-mail é obrigatório</span>}
+                    <Input 
+                        type="password" 
+                        placeholder="Senha" 
+                        leftIcon={<MdLock />} 
+                        name="senha" 
+                        control={control}
+                        rules={{ required: true }}
+                    />
+                    {errors.senha && <span style={{ color: '#E4105D', fontSize: '12px' }}>Senha é obrigatória</span>}
                     <Button title="Entrar" variant="secondary" type="submit"/>
                 </form>
                 <Row>
                     <EsqueciText>Esqueci minha senha</EsqueciText>
-                    <CriarText>Criar Conta</CriarText>
+                    <CriarText onClick={handleClickCadastro}>Criar Conta</CriarText>
                 </Row>
                 </Wrapper>
             </Column>
