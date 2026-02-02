@@ -1,15 +1,12 @@
-# DIO REACT CLI
-
-## Sobre o Projeto
-
-O **DIO React CLI** é uma ferramenta de linha de comando desenvolvida para facilitar a criação e gerenciamento de projetos React, seguindo as melhores práticas do ecossistema. Com comandos simples, você pode iniciar novos projetos, adicionar dependências e automatizar tarefas comuns do desenvolvimento front-end.
-
----
-
 # Sistema DIO - Clone React
 
 Sistema completo de autenticação e feed desenvolvido com React.
 
+## Sobre o Projeto
+
+O **Sistema DIO** é uma ferramenta de linha de comando desenvolvida para facilitar a criação e gerenciamento de projetos React, seguindo as melhores práticas do ecossistema. Com comandos simples, você pode iniciar novos projetos, adicionar dependências e automatizar tarefas comuns do desenvolvimento front-end.
+
+---
 ## 🚀 Funcionalidades
 
 ### ✅ Páginas Implementadas
