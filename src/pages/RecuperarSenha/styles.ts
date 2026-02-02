@@ -28,8 +28,6 @@ export const Row = styled.div`
     margin-top: 20px;
 `
 
-
-
 export const Title = styled.h2`
     font-family: 'Open Sans';
     font-style: normal;
@@ -42,7 +40,7 @@ export const Title = styled.h2`
     color: #FFFFFF;
 `
 
-export const TitleLogin = styled.p`
+export const TitleRecuperar = styled.p`
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
@@ -51,7 +49,7 @@ export const TitleLogin = styled.p`
     margin-bottom: 8px;
 `
 
-export const SubtitleLogin = styled.p`
+export const SubtitleRecuperar = styled.p`
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
@@ -60,8 +58,7 @@ export const SubtitleLogin = styled.p`
     margin-bottom: 35px;
 `
 
-
-export const EsqueciText  = styled.p`
+export const VoltarText = styled.p`
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
@@ -69,14 +66,24 @@ export const EsqueciText  = styled.p`
     line-height: 19px;
 
     color: #E5E044;
-` 
+`
 
-export const CriarText =  styled.p`
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 19px;
-
-    color: #23DD7A;
+export const SuccessMessage = styled.div`
+    text-align: center;
+    padding: 40px 20px;
+    
+    h2 {
+        font-family: 'Open Sans';
+        font-size: 28px;
+        color: #23DD7A;
+        margin-bottom: 20px;
+    }
+    
+    p {
+        font-family: 'Open Sans';
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 10px;
+        color: #FFFFFF;
+    }
 `

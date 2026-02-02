@@ -45,7 +45,8 @@ export const Menu = styled.a`
     font-size: 18px;
     line-height: 25px;
     color: #FFFFFF;
-    margin-right: 12px;
+    margin-left: 12px;
+
 `
 
 export const MenuRight = styled.a`
